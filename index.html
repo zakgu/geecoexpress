@@ -1,0 +1,199 @@
+<!--License URL: http://creativecommons.org/licenses/by/3.0/-->
+<!DOCTYPE html>
+<html><head>
+<title>geecoexpress</title>
+<meta name="geecoexpress" content="geecoexpress">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="keywords" content="Repartidores, Eco, Express, Velocidad, Rapidez, Ecologico, Contaminacion, Moroleon
+Uriangato, Yuriria, Comida, Mandados">
+
+<link href="images/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+<!--style-->
+<link href="images/style.css" rel="stylesheet" type="text/css" media="all">	
+<script type="text/javascript" src="images/jquery-1.js"></script>
+
+
+</head>
+
+<body>
+</script>
+	<!--Inicio-->
+	<div class="header" id="home">
+	<div class="header-top">
+		<a href="index.html"><img src="images/logo-2.png" alt=""></a>
+		<h2>GeecoExpress</h2>
+		<h1>Repartidores ecologicos</h1>
+		<div class="header-top-bottom">
+			<a href="#about" class="scroll"><img src="images/logo-3.png" alt=""></a>
+		</div>
+	</div>
+	<div class="header-home">
+	<div class="fixed-header">
+	   <div class="h_menu4"><!-- start h_menu4 -->
+	   	<div class="header-left">
+	   		<div class="header-left-logo">
+				   <a href="index.html"><img src="
+					images/logo-2.1.png" alt=""></a>
+	   			</div>
+	   			<div class="header-left-text">
+					<a class="toggleMenu" href="#" style="display: none;"><img src="images/menu-icon.png" alt=""></a>
+					<ul class="nav">
+					    <li><a href="#about" class="scroll">CONOCENOS</a></li>
+						<li><a href="#services" class="scroll">EMPLEO</a></li>
+						<li><a href="#work" class="scroll">SERVICIOS</a></li>
+					</ul>
+				</div>
+				<div class="clearfix"></div>
+				<script type="text/javascript" src="images/nav.js"></script>
+				<script type="text/javascript">
+					jQuery(document).ready(function($) {
+						$(".scroll").click(function(event){		
+							event.preventDefault();
+							$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+						});
+					});
+					</script>		
+				 <!--script-->
+		<script>
+			$(document).ready(function(){
+				$(".nav li a").click(function(){
+					$(this).parent().addClass("active");
+					$(this).parent().siblings().removeClass("active");
+				});
+			});
+		</script>
+			<!--script-for-sticky-nav-->
+		<script>
+		$(document).ready(function() {
+			 var navoffeset=$(".header-home").offset().top;
+			 $(window).scroll(function(){
+				var scrollpos=$(window).scrollTop(); 
+				if(scrollpos >=navoffeset){
+					$(".header-home").addClass("fixed");
+				}else{
+					$(".header-home").removeClass("fixed");
+				}
+			 });
+			 
+		});
+		</script>
+		<!--/script-for-sticky-nav-->
+		</div>
+		<div class="header-right">
+			<ul>
+				<li><a href="#"><span class="fb"> </span></a></li>
+				<li><a href="#"><span class="twit"> </span></a></li>
+				<li><a href="#"><span class="drbl"> </span></a></li>
+				<li><a href="#"><span class="yt"> </span></a></li>
+			</ul>
+		</div>
+		<div class="clearfix"></div>
+        </div><!-- end h_menu4 -->
+       </div>
+     </div>
+	</div>
+	<!--INICIO-->
+
+	<!--CONOCENOS-->
+	<div class="about" id="about">
+		<div class="container">
+			<div class="about-main">
+					<img width="1000" height="700" src="images/bije.png">
+					</div>
+			</div>
+		</div>
+	</div>
+	<!--CONOCENOS-->
+	<!--start-project-->
+	<div class="project" id="services">
+		<div class="col-md-3 project-left">
+			<img src="images/zavala.jpg" alt="">
+			<span> </span>
+			<div class="project-bottom">
+				<h4>Huaraches Zavala</h4>
+				<label> </label>
+				<p>NEGOCIO QUE CUIDA EL MEDIO AMBIENTE</p>
+			</div>
+		</div>
+		<div class="col-md-3 project-left">
+			<img src="images/verde.jpg" alt="">
+			<span> </span>
+			<div class="project-bottom">
+				<h4>Derma balance</h4>
+				<label> </label>
+				<p>NEGOCIO QUE CUIDA EL MEDIO AMBIENTE</p>
+			</div>
+		</div>
+		<div class="col-md-3 project-left">
+			<img src="images/pez.jpg" alt="">
+			<span> </span>
+			<div class="project-bottom">
+				<h4>La Morena</h4>
+				<label> </label>
+				<p>NEGOCIO QUE CUIDA EL MEDIO AMBIENTE</p>
+			</div>
+		</div>
+		<div class="col-md-3 project-left">
+			<img src="images/carbon.jpg" alt="">
+			<span> </span>
+			<div class="project-bottom">
+				<h4>Ay Carbon!</h4>
+				<label> </label>
+				<p>NEGOCIO QUE CUIDA EL MEDIO AMBIENTE</p>
+			</div>
+		</div>
+		<div class="clearfix"></div>
+	</div>
+	<!--start-what-->
+	<div class="what" id="work">
+		<div class="container">
+			<div class="what-main">
+				<h3>¿Como lo hacemos?</h3>
+				<div class="what-top">
+					<div class="col-md-6 what-top-left">
+						<h4><span>Somos</span> Ciclistas comprometidos</h4>
+						<h5>SEGURIDAD</h5>
+						<p>Llama a tu tienda y pidenos que lo llevemos, seguridad y confianza nos respaldan</p>
+					</div>
+					<div class="col-md-6 what-top-right">
+						<img src="images/security.png" alt="">
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="what-middle">
+					<div class="col-md-6 what-middle-left">
+						<img src="images/pinoso.png" alt="">
+					</div>
+					<div class="col-md-6 what-middle-right">
+						<h4><span>Somos un negocio</span> que cuida del ambiente</h4>
+						<h5>Rapidez ecologica</h5>
+						<p>Te llevamos tu encargo cuidando el medio ambiente, el tiempo y el embiente valen oro</p>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="what-top">
+					<div class="col-md-6 what-top-left">
+						<h4><span>Puedes ser parte de nosotros</span> Contactanos</h4>
+						<h5>Avancemos naturalmente</h5>
+						<p>Si eres un negocio y estás interesado en unirte, no dudes en llamarnos</p>
+					</div>
+					<div class="col-md-6 what-top-right">
+						<img src="images/bis.png" alt="">
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--end-what-->
+	<!--Subir-->
+		 <script type="text/javascript">
+				$(document).ready(function() {
+					$().UItoTop({ easingType: 'easeOutQuart' });
+								});
+		</script>
+		<a href="#home" id="toTop" class="scroll" style="display: block;"> 
+			<span id="toTopHover" style="opacity: 12"> </span></a>
+	</div>
+
+</body></html>
